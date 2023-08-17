@@ -1,0 +1,156 @@
+.popUpSection {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+.popUp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+}
+
+.messageBox {
+    margin: auto auto 0;
+    width: 60vw;
+    height: 90vh;
+    padding:  0 5rem 5rem;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    background-color: #FBFBFB;
+    /* Color that can not be seperated */
+    position: relative;
+    transform: translateY(100%);
+    overflow-y: scroll;
+}
+
+#holder {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    z-index: 1;
+}
+
+#back {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 10rem;
+    background-color: #CF0707;
+    /* Color that can not be seperated */
+    color: #FBFBFB;
+    /* Color that can not be seperated */
+    margin-left: auto;
+    transform: translate(3.5rem, 2rem);
+}
+
+#back span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#back i {
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.messageBox .interval {
+    width: 80%;
+    margin: 0 auto 2rem;
+}
+
+.PUTriggered {
+    background-color: rgba(7, 7, 31, 0.5);
+    /* Color that can not be seperated */
+}
+
+.MBTriggered {
+    transform: translateY(0);
+}
+
+.messageBox::-webkit-scrollbar {
+    display: none;
+}
+
+.messageBox ul {
+    margin-left: 4rem;
+}
+
+.messageBox ul + p {
+    margin: 4rem 4rem 1rem;
+}
+
+.button-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whatsapp, .messenger {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.whatsapp, .messenger {
+    font-weight: bolder;
+}
+
+/* Menu */ /*==============================*/
+
+#categories {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    border-bottom: none;
+}
+
+#categories a {
+    border-bottom: 1px solid #07071F;
+    padding: 2rem 1rem 1rem;
+}
+
+#categories a:hover {
+    background-color: #0F9F8F;
+    color: #FBFBFB;
+}
+
+/* Media */ /*==============================*/
+
+@media only screen and (max-width: 1199px) {
+    .messageBox {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .messageBox {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .messageBox {
+        width: 85vw;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .messageBox {
+        width: 95vw;
+        padding: 0 1rem 3rem;
+    }
+
+    #holder {
+        transform: translate(-4rem, 1rem);
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    #back i {
+        margin-left: .5rem;
+    }
+}

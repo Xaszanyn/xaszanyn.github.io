@@ -1,0 +1,42 @@
+ 0000 | opal          | ring          | teardrop      |    size:45, length:15 or diameter:6 height:
+ 0001 | opal          | ring          | circle        | 
+ 0002 | opal          | ring          | d-teardrop    |
+ 0003 | opal          | ring          | unique        |
+ 0004 | opal          | ring          | crown         |
+ 0005 | opal          | ring          | flat          |
+ 0006 | opal          | ring          | ellipse       |
+ 0007 | opal          | ring          | flat          |
+ 0008 | opal          | ring          | circle        |
+ 0009 | opal          | ring          | crown         |
+ 0010 | opal          | ring          | teardrop      |
+ 0011 | opal          | ring          | teardrop      |
+ 0012 | opal          | earring       | circle        |
+ 0013 | opal          | earring       | h-circle      |
+ 0014 | opal          | pendant       | crescent      |
+ 0015 | opal          | pendant       | teardrop      |
+ 0016 | opal          | pendant       | circle        |
+ 0017 | opal          | bracelet      | d-circle      |
+ 0018 | opal          | bracelet      | knotted       |
+ 0019 | opal          | bracelet      | circle        |
+ 0020 | opal          | bracelet      | rectangle     |
+ 0021 | opal          | bracelet      | teardrop      |
+ 0022 | morganite     | ring          | d-triangle    |
+ 0023 | morganite     | ring          | teardrop      |
+ 0024 | morganite     | ring          | triangle      |
+ 0025 | morganite     | ring          | triangle      |
+ 0026 | morganite     | bracelet      | circle        |
+ 0027 | morganite     | earring       | triangle      |
+ 0028 | morganite     | earring       | d-triangle    |
+ 0029 | morganite     | earring       | teardrop      |
+ 0030 | morganite     | pendant       | triangle      |
+ 0031 | morganite     | pendant       | teardrop      |
+ 0032 | morganite     | pendant       | d-triangle    |
+ 0033 | morganite     | pendant       | sun           |
+ 0034 | opal          | ring          | circle        |
+ 0035 | opal          | ring          | square        |
+ 0036 | opal          | ring          | heart         |
+ 0037 | opal          | ring          | leaf          |
+ 0038 | opal          | ring          | 
+ 0039 | opal          | ring          | leaf          |
+ 0040 | opal          | bracelet      | 
+ 0041 | opal          | bracelet      | 

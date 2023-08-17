@@ -1,0 +1,63 @@
+#viewer {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    height: 40rem;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(7, 7, 31, 0.20);
+    
+    /* This will change */
+}
+
+#viewer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#viewer a {
+    font-size: 4rem;
+    position: absolute;
+    color: rgba(7, 7, 31, 0.5);
+    /* Color that can not be seperated */
+    z-index: 1;
+}
+
+#viewer a:hover {
+    color: #07071F;
+    /* Color that can not be seperated */
+}
+
+#left {
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+#right {
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+}
+
+.center {
+    transform: translate(0);
+}
+
+.right {
+    transform: translateX(100%);
+}
+
+.left {
+    transform: translateX(-100%);
+}
+
+@media only screen and (max-width: 479px) {
+    #viewer {
+        height: 30rem;
+    }
+}

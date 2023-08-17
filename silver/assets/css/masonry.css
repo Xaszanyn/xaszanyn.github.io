@@ -1,0 +1,31 @@
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+        
+.masonry div {
+    width: calc((100% - 2rem) / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.masonry img {
+    width: 100%;
+    height: auto;
+}
+        
+.masonry img:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.bottom {
+    width: 100% !important;
+    height: 50rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(251, 251, 251, 0) 0%, #FBFBFB 100%);
+    /* Color that can not be seperated */
+}
